@@ -63,15 +63,6 @@ Then run a one-off task:
     └── variables.tf
 ```
 
-## Key Files Explained
-_None detected yet._
-
-## Variables
-_None detected yet._
-
-## Outputs
-_None detected yet._
-
 ## Logs & Debugging
 - **ECS Console → Clusters → Tasks** to see running/stopped tasks and exit codes
 - **CloudWatch Logs → Log groups** (from output `log_group_name`) for container stdout/stderr
@@ -92,3 +83,5 @@ terraform destroy
 
 ---
 *Pro tip:* Don’t commit `.terraform/` or `*.tfstate*`. Keep `.terraform.lock.hcl` committed so your team uses the same provider versions.
+---
+"In I.T., 'highly-available' just means you'll be highly available when it breaks" ~ [@gsaffouri](https://github.com/gsaffouri)
