@@ -1,4 +1,4 @@
-# tf-ecs-job
+# Terraform & ECS FTW! 
 
 Terraform-managed **ECS Fargate one-off job**: build/push an image to ECR, run it as a task on an ECS cluster, watch logs, and shut down to save 💸.
 
