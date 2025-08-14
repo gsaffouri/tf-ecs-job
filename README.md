@@ -83,5 +83,7 @@ terraform destroy
 
 ---
 *Pro tip:* Don’t commit `.terraform/` or `*.tfstate*`. Keep `.terraform.lock.hcl` committed so your team uses the same provider versions.
+
 ---
+
 "In I.T., 'highly-available' just means you'll be highly available when it breaks" ~ [@gsaffouri](https://github.com/gsaffouri)
